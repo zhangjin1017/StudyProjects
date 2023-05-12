@@ -157,7 +157,7 @@ JWT令牌
 
 #####    cas-client2: cas单点登录客户端2
 
-7、RabbitMQ
+## 7、RabbitMQ
 #### 使用Docker安装RabbitMQ
 
 1. 拉取镜像
