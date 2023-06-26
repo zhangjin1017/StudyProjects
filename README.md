@@ -590,3 +590,4 @@ channel.queueBind("console",*EXCHANGE_NAME*,"info");
 
 解决方法看上方解决延迟队列bug
 
+test
