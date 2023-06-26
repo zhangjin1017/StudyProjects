@@ -9,6 +9,6 @@ public class Test05 {
         String[] arr = {"a", "b", "c"};
         Stream<String> a2 = Stream.of(arr);
         Stream<String> a3 = Arrays.stream(arr);
-ccc
+aaa
     }
 }
