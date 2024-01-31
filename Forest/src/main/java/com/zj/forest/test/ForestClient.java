@@ -29,5 +29,5 @@ public interface ForestClient {
     )
     String sendMessage(@Var("token") String token, @Body Map<String, Object> map);
 
-Test
+Test2
 }
