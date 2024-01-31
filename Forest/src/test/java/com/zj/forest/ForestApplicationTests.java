@@ -1,10 +1,10 @@
-package com.zj.springboottest;
+package com.zj.forest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootTestApplicationTests {
+class ForestApplicationTests {
 
     @Test
     void contextLoads() {
