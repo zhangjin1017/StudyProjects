@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: KafkaTest
+
+  kafka:
+    bootstrap-servers: promoted-woodcock-7049-us1-kafka.upstash.io:9092
+    user: cHJvbW90ZWQtd29vZGNvY2stNzA0OSTSqn-QwwN9JocB1CCH4aA-SEaw-clxSIo
+    pass: Yzg1ZDNiZjYtN2ZlNy00NDZkLTk2MjctOTYzNzJkZDk4OGVm
+    properties:
+      security.protocol: SASL_SSL
+      sasl.mechanism: SCRAM-SHA-256
+      sasl.jaas.config: org.apache.kafka.common.security.scram.ScramLoginModule required username="${spring.kafka.user}" password="${spring.kafka.pass}";
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.LongSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      transaction-id-prefix: zj-
+
